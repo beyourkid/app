@@ -28,9 +28,9 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-	window.location="http://app.beyourkid.com";
-	//var bykUrl="http://app.beyourkid.com";
-	//var ref = cordova.InAppBrowser.open(bykUrl, '_self', 'location=no');
+	//window.location="http://app.beyourkid.com";
+	var bykUrl="http://app.beyourkid.com";
+	var ref = cordova.InAppBrowser.open(bykUrl, '_self', 'location=no');
     },
 
     // Update DOM on a Received Event
