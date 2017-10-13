@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "BeYourKid",
+  "short_name": "BeYourKid",
+  "version": "com.beyourkid.app",
+  "description": "Content adaptation based on your personal preferences, taste, and choices.",
+  "author": "BeYourKid Team",
+  "icons": [],
+  "start_url": "index.html"
+}
