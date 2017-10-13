@@ -4,12 +4,15 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
     <name>BeYourKid</name>
     <description>
         Content adaptation based on your personal preferences, taste, and choices.
     </description>
-    <author email="info@beyurkid.com" href="http://beyourkid.com">
-        Apache Cordova Team
+    <author email="info@beyourkid.com" href="http://beyourkid.com">
+        BeYourKid Team
     </author>
     <content src="index.html" />
     <access origin="*" />
