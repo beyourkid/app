@@ -30,7 +30,7 @@ var app = {
         this.receivedEvent('deviceready');
         //window.location="http://app.beyourkid.com";
         var bykUrl = "http://app.beyourkid.com";
-        var ref = cordova.InAppBrowser.open(bykUrl, '_blank', 'location=no');
+        var ref = cordova.InAppBrowser.open(bykUrl, '_blank', 'location=no, toolbar=no');
     },
 
     // Update DOM on a Received Event
