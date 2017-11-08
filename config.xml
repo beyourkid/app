@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.beyourkid.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
-        xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.beyourkid.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>BeYourKid</name>
     <description>
         Content adaptation based on your personal preferences, taste, and choices.
@@ -8,39 +7,42 @@
     <author email="info@beyourkid.com" href="http://beyourkid.com">
         BeYourKid Team
     </author>
-    <content src="index.html"/>
-    <access origin="*"/>
-    <allow-intent href="http://*/*"/>
-    <allow-intent href="https://*/*"/>
-    <allow-intent href="tel:*"/>
-    <allow-intent href="sms:*"/>
-    <allow-intent href="mailto:*"/>
-    <allow-intent href="geo:*"/>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
     <platform name="android">
-        <allow-intent href="market:*"/>
-        <preference name="OverrideUserAgent" value="Mozilla/5.0 Google"/>
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*"/>
-        <allow-intent href="itms-apps:*"/>
-        <preference name="OverrideUserAgent" value="Mozilla/5.0 Google"/>
-
-        <!-- iOS 6.1 -->
-        <!-- iPhone / iPod Touch -->
-        <icon src="res/ios/icon-57.png" width="57" height="57" />
-        <icon src="res/ios/icon-57-@2x.png" width="114" height="114" />
-        <!-- iPad -->
-        <icon src="res/ios/icon-72.png" width="72" height="72" />
-        <icon src="res/ios/icon-72@2x.png" width="144" height="144" />
-
-
+        <allow-intent href="market:*" />
+        <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
+        <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/icon-96-xhdpi.png" />
         <splash src="res/screen/ios/screen-iphone-portrait.png" />
         <splash src="res/screen/ios/screen-iphone-portrait-2x.png" />
         <splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" />
     </platform>
-    <engine name="android" spec="^6.3.0"/>
-    <engine name="ios" spec="^4.5.1"/>
-    <engine name="browser" spec="^5.0.0"/>
-    <plugin name="cordova-plugin-whitelist" spec="^1.3.2"/>
-    <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1"/>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
+        <icon height="57" src="res/ios/icon-57.png" width="57" />
+        <icon height="114" src="res/ios/icon-57-2x.png" width="114" />
+        <icon height="72" src="res/ios/icon-72.png" width="72" />
+        <icon height="144" src="res/ios/icon-72-2x.png" width="144" />
+        <splash src="res/screen/ios/screen-iphone-portrait.png" />
+        <splash src="res/screen/ios/screen-iphone-portrait-2x.png" />
+        <splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" />
+    </platform>
+    <engine name="android" spec="^6.3.0" />
+    <engine name="ios" spec="^4.5.1" />
+    <engine name="browser" spec="^5.0.0" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
 </widget>

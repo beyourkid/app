@@ -39,6 +39,11 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <icon height="57" src="res/ios/icon-57.png" width="57" />
+    <icon height="114" src="res/ios/icon-57-2x.png" width="114" />
+    <splash src="res/screen/ios/screen-iphone-portrait.png" />
+    <splash src="res/screen/ios/screen-iphone-portrait-2x.png" />
+    <splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -52,4 +57,5 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
 </widget>
