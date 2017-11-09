@@ -6,6 +6,12 @@
   "version": "com.beyourkid.app",
   "description": "Content adaptation based on your personal preferences, taste, and choices.",
   "author": "BeYourKid Team",
-  "icons": [],
+  "icons": [
+    {
+      "src": "res/icon/ios/icon-57.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html"
 }

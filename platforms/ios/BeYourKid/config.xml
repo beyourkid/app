@@ -22,6 +22,10 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
     <name>BeYourKid</name>
     <description>
         Content adaptation based on your personal preferences, taste, and choices.
@@ -37,10 +41,17 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon src="res/icon/ios/icon-57.png" />
+    <splash src="res/icon/ios/icon-72-2x.png" />
+    <splash height="1024" platform="ios" src="/res/screen/ios/screen-iphone-portrait.png" width="768" />
+    <splash height="768" platform="ios" src="/res/screen/ios/screen-iphone-portrait.png" width="1024" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <icon height="57" src="res/ios/icon-57.png" width="57" />
-    <icon height="114" src="res/ios/icon-57-2x.png" width="114" />
+    <icon height="57" src="res/icon/ios/icon-57.png" width="57" />
+    <icon height="60" src="res/icon/ios/icon-57.png" width="60" />
+    <icon height="114" src="res/icon/ios/icon-57-2x.png" width="114" />
+    <icon height="72" src="res/icon/ios/icon-72.png" width="72" />
+    <icon height="144" src="res/icon/ios/icon-72-2x.png" width="144" />
     <splash src="res/screen/ios/screen-iphone-portrait.png" />
     <splash src="res/screen/ios/screen-iphone-portrait-2x.png" />
     <splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" />

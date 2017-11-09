@@ -18,21 +18,8 @@ under the License.
 */
 
 // Note, these will be updated automatically at build time
-var CACHE_VERSION = '1510139358736';
-var CACHE_LIST = [
-    "/config.xml",
-    "/cordova-sw.js",
-    "/cordova.js",
-    "/cordova_plugins.js",
-    "/css/index.css",
-    "/favicon.ico",
-    "/img/logo.png",
-    "/index.html",
-    "/js/index.js",
-    "/manifest.json",
-    "/plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js",
-    "/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js"
-];
+var CACHE_VERSION = '%CACHE_VERSION%';
+var CACHE_LIST = ['CACHE_VALUES'];
 
 this.addEventListener('install', function (event) {
     // Perform install steps

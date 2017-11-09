@@ -29,7 +29,7 @@ var app = {
     onDeviceReady: function () {
         this.receivedEvent('deviceready');
         //window.location="http://app.beyourkid.com";
-        var bykUrl = "http://app.beyourkid.com";
+
         app.openBYK();
     },
 
@@ -42,11 +42,16 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+        receivedElement.addEventListener("click", function(){
+            app.openBYK();
+        }, false);
+
         console.log('Received Event: ' + id);
     },
 
     openBYK: function(){
-        //var ref = cordova.InAppBrowser.open(bykUrl, '_blank', 'location=no, toolbar=no');
+        var bykUrl = "http://app.beyourkid.com";
+        var ref = cordova.InAppBrowser.open(bykUrl, '_blank', 'location=no, toolbar=no');
     }
 };
 

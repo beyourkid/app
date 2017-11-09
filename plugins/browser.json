@@ -12,6 +12,9 @@
     },
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.beyourkid.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.beyourkid.app"
     }
   },
   "dependent_plugins": {}
